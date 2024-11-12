@@ -14,9 +14,12 @@
 
         <PackageReadmeFile>readme.md</PackageReadmeFile>
         <PackageTags>wchart;native;interop;linux;windows;macos</PackageTags>
-        <LangVersion>9</LangVersion>
+        
         <TargetFramework>netstandard2.0</TargetFramework>
+		
+		<Nullable>disable</Nullable>
 		<ImplicitUsings>disable</ImplicitUsings>
+		<LangVersion>11</LangVersion>
 		<Nullable>disable</Nullable>
     </PropertyGroup>
 

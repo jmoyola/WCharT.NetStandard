@@ -3,6 +3,10 @@
     <IsPackable>false</IsPackable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <RootNamespace>WCHarT.Tests</RootNamespace>
+	<Nullable>disable</Nullable>
+	<ImplicitUsings>disable</ImplicitUsings>
+	<LangVersion>11</LangVersion>
+    <TargetFrameworks>net6.0;net8.0;net48</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
