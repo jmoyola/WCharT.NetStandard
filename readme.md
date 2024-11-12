@@ -33,7 +33,7 @@ To build the solution locally execute the following commands:
 
 ```sh
 $ git clone https://github.com/jmoyola/WCharT.NetStandard
-$ cd WCharT.Net/src
+$ cd WCharT.NetStandard/src
 $ dotnet fsi build.fsx
 ```
 
