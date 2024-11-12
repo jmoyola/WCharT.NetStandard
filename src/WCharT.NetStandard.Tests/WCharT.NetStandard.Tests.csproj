@@ -13,6 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WCharT.Net\WCharT.Net.csproj" />
+    <ProjectReference Include="..\WCharT.NetStandard\WCharT.NetStandard.csproj" />
   </ItemGroup>
 </Project>

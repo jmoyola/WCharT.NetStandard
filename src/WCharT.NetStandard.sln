@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DF100067-E33C-4832-83F5-354B71555EC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{A84D4649-3834-4DDC-A7D2-5DD527907861}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		Directory.Build.props = Directory.Build.props
+		..\readme.md = ..\readme.md
+		..\.github\dependabot.yml = ..\.github\dependabot.yml
+		..\.github\workflows\ci.yml = ..\.github\workflows\ci.yml
+		build.fsx = build.fsx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCharT.NetStandard", "WCharT.NetStandard\WCharT.NetStandard.csproj", "{EC320C85-455B-4879-8CB4-0AA12921AC13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCharT.NetStandard.Tests", "WCharT.NetStandard.Tests\WCharT.NetStandard.Tests.csproj", "{6F5B28BB-EE08-4608-BBCA-70AA43077120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC320C85-455B-4879-8CB4-0AA12921AC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC320C85-455B-4879-8CB4-0AA12921AC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC320C85-455B-4879-8CB4-0AA12921AC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC320C85-455B-4879-8CB4-0AA12921AC13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5B28BB-EE08-4608-BBCA-70AA43077120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5B28BB-EE08-4608-BBCA-70AA43077120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5B28BB-EE08-4608-BBCA-70AA43077120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5B28BB-EE08-4608-BBCA-70AA43077120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC320C85-455B-4879-8CB4-0AA12921AC13} = {DF100067-E33C-4832-83F5-354B71555EC7}
+		{6F5B28BB-EE08-4608-BBCA-70AA43077120} = {DF100067-E33C-4832-83F5-354B71555EC7}
+	EndGlobalSection
+EndGlobal
