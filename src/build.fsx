@@ -2,7 +2,7 @@
 open System
 open SimpleExec
 
-let wchartDir = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "WCharT.Net")
+let wchartDir = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "WCharT.NetStandard")
 
 //Create binary for Linux / Mac
 Command.Run(
