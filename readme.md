@@ -1,5 +1,5 @@
 # WCharT.NetStandard
-[![Build Status](https://img.shields.io/github/actions/workflow/status/badcel/WCharT.Net/ci.yml?branch=main)](https://github.com/badcel/WCharT.Net/actions/workflows/ci.yml)[![NuGet](https://img.shields.io/nuget/v/WCharT.Net)](https://www.nuget.org/packages/WCharT.Net/)[![License (MIT)](https://img.shields.io/github/license/badcel/WCharT.Net)](https://github.com/badcel/WCharT.Net/blob/main/license.txt)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/jmoyola/WCharT.NetStandard/ci.yml?branch=main)](https://github.com/jmoyola/WCharT.NetStandard/actions/workflows/ci.yml)[![NuGet](https://img.shields.io/nuget/v/WCharT.NetStandard)](https://www.nuget.org/packages/WCharT.NetStandard/)[![License (MIT)](https://img.shields.io/github/license/jmoyola/WCharT.NetStandard)](https://github.com/jmoyola/WCharT.NetStandard/blob/main/license.txt)
 
 Welcome to WCharT.NetStandard (a legacy cross platform package to interop with WCharT data.
 
